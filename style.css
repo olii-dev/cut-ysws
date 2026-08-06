@@ -260,6 +260,45 @@ h2::after {
   color: var(--mint);
 }
 
+/* ---------- tech ---------- */
+
+.tech .sub {
+  color: var(--muted);
+  max-width: 40rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech .sub em {
+  color: var(--mint);
+  font-style: normal;
+}
+
+.tech pre {
+  background: #0a0810;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.5rem;
+  overflow-x: auto;
+  box-shadow: inset 0 0 60px rgba(236, 55, 80, 0.06);
+  max-width: 38rem;
+}
+
+.tech pre code {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: #e8dbb5;
+}
+
+.tech pre .c { color: #6d6280; }
+
+.tech .hint {
+  margin-top: 1rem;
+  max-width: 38rem;
+}
+
+.tech .hint a { color: var(--mint); }
+
 /* ---------- tracklist ---------- */
 
 .tracks {
